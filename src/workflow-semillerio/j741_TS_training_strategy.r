@@ -13,7 +13,7 @@ require("yaml")
 PARAM <- list()
 PARAM$experimento <- "AJ7410"
 
-PARAM$exp_input <- "AJ7310"
+PARAM$exp_input <- "AI7310"
 
 # me salteo los meses duros de pandemia, pero llego hasta 201907 en training
 # entreno en 18 meses
