@@ -8,8 +8,6 @@ options(error = function() {
 
 
 # corrida de cada paso del workflow
-#source("~/labo2023r/src/workflow-semillerio/g711_CA_reparar_dataset.r")
-#source("~/labo2023r/src/workflow-semillerio/g721_DR_corregir_drifting.r")
 source("~/labo2023r/src/workflow-semillerio/h731_FE_historia.r")
 source("~/labo2023r/src/workflow-semillerio/h741_TS_training_strategy.r")
 source("~/labo2023r/src/workflow-semillerio/h751_HT_lightgbm.r")
