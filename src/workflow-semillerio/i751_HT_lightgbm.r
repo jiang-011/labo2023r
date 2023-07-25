@@ -76,7 +76,7 @@ PARAM$lgb_basicos <- list(
 PARAM$bo_lgb <- makeParamSet(
   makeNumericParam("learning_rate", lower = 0.02, upper = 0.3),
   makeNumericParam("feature_fraction", lower = 0.01, upper = 1.0),
-  makeIntegerParam("num_leaves", lower = 8L, upper = 1024L),
+  makeIntegerParam("num_leaves", lower = 8L, upper = 5000L), # estiro el rango superior de 1024 a 5000
   makeIntegerParam("min_data_in_leaf", lower = 100L, upper = 50000L)
 )
 
