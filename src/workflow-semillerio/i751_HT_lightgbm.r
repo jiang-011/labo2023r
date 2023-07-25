@@ -27,7 +27,7 @@ options(error = function() {
 
 # Parametros del script
 PARAM <- list()
-PARAM$experimento <- "AI7510"
+PARAM$experimento <- "AI7510-a"
 
 PARAM$exp_input <- "AI7410"
 
@@ -76,7 +76,7 @@ PARAM$lgb_basicos <- list(
 PARAM$bo_lgb <- makeParamSet(
   makeNumericParam("learning_rate", lower = 0.02, upper = 0.3),
   makeNumericParam("feature_fraction", lower = 0.01, upper = 1.0),
-  makeIntegerParam("num_leaves", lower = 8L, upper = 5000L), # estiro el rango superior de 1024 a 5000
+  makeIntegerParam("num_leaves", lower = 8L, upper = 6000L), # estiro el rango superior de 1024 a 6000
   makeIntegerParam("min_data_in_leaf", lower = 100L, upper = 50000L)
 )
 
