@@ -36,7 +36,7 @@ PARAM$kaggle$envios_salto <- 500L
 PARAM$graficar$envios_hasta <- 20000L # para el caso que deba graficar
 PARAM$graficar$ventana_suavizado <- 2001L
 
-PARAM$home <- "~/buckets/b1/"
+PARAM$home <- "C:/Users/ACER/Documents/MCD_2023/lab1/local/labo2023r/"
 # FIN Parametros del script
 
 OUTPUT <- list()
